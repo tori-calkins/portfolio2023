@@ -12,7 +12,7 @@
 }
 
 /* Home Page Styling */
-.homepage{
+.homepage, .aboutme{
   text-align: center;
   font-family: IBM Plex Serif;
   margin-top: 100px;
@@ -29,6 +29,7 @@
 #profilepicture{
   height: 450px;
   border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(22, 12, 12, 0.2)
 }
 
 
@@ -49,3 +50,33 @@
   margin: 0 10px; 
 }
 
+/* About Me page styling */
+.aboutme{
+  margin-top:200px;
+  width: 50%;
+  margin:auto;
+  font-size: 23px;
+  border:solid;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right,  rgb(93, 248, 219), rgb(33, 228, 246)) 1;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2)
+}
+#makespace{
+  margin-top:30px;
+}
+#icons{
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  width: 50%;
+  padding-bottom:20px
+}
+#aboutmepicture{
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom:22px
+}

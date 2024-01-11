@@ -1,7 +1,6 @@
 import React from "react";
 import linkedInIcon from'../assets/linkedin.png'
 import gitHubIcon from'../assets/github1.png'
-import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return(
