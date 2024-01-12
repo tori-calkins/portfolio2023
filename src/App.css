@@ -1,3 +1,4 @@
+/* Header Styling */
 .header{
   display: flex;
   justify-content: space-evenly;
@@ -5,11 +6,54 @@
   background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
 }
 .navlinks{
-  font-size: 27px;
+  font-size: 25px;
   text-decoration: none;
   color: black;
-  font-family: IBM Plex Serif
+  font-family: IBM Plex Serif;
+  display: inline-block;
+  width: 150px;
+  height: 40px; 
+  min-width: 150px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  /* transition: width 0.2s; */
 }
+.navlinks:hover, .navlinks.active{
+  border-radius:50%;
+  width: 200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  appearance: none;
+  background-image:linear-gradient(91.9deg, rgb(33, 228, 246) 27.8%, rgb(93, 248, 219) 67%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: Black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: IBM Plex Serif;
+  font-size: 25px;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.navlinks:not(:hover):not(.active) {
+  width: 150px; 
+}
+
 
 /* Home Page Styling */
 .homepage, .aboutme{
@@ -85,14 +129,28 @@
 
 /* Projects Page Styling */
 .sidenav{
+  margin-top: 70px;
+  margin-left: 40px;
   border: solid; 
   display: inline-block;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2)
 }
 .title{
   border-bottom: solid;
-  background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
-  background-size: cover;
+  background: linear-gradient(91.9deg, rgb(33, 228, 246) 27.8%, rgb(93, 248, 219) 67%);
+  padding: 10px;
+  margin: 0;
+  font-size: 25px;
+  font-family: IBM Plex Serif
 }
 .projects{
   border-bottom: solid;
+  text-align: center; 
+  margin: 0;
+  font-family: IBM Plex Serif;
+  font-size: 20px;
+  padding-top:3px;
+  padding-bottom:3px;
 }

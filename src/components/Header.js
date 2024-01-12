@@ -1,5 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
+
+const NavigationLink = () => {
+    const [isActive, setIsActive] = useState(false);
+  
+    const handleLinkClick = () => {
+      setIsActive(!isActive);
+    };
+  
+    return (
+      <NavLink
+        className={`navlinks ${isActive ? "active" : ""}`}
+        to="/"
+        onClick={handleLinkClick}
+      >Home</NavLink>
+  );
+};
 
 const Header = () => {
     return(
