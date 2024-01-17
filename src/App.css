@@ -58,7 +58,7 @@
 .homepage, .aboutme{
   text-align: center;
   font-family: IBM Plex Serif;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 #greeting{
   font-size: 55px;
@@ -72,18 +72,19 @@
 #profilepicture{
   height: 450px;
   border-radius: 50%;
-  box-shadow: 0 4px 15px rgba(22, 12, 12, 0.2)
+  box-shadow: 0 4px 15px rgba(22, 12, 12, 0.2);
+  margin-bottom:15px;
 }
 
 
 /* Icons Footer styling */
 .footer {
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+} 
 .bottomIcons{
   display: flex;
   justify-content: center;
@@ -182,16 +183,19 @@
   font-family: IBM Plex Serif;
   display: inline-flex;
   align-items: center;
+  justify-content: center; 
   text-align:center;
   font-weight: bold;
   font-size: 20px;
-  padding-bottom:10px;
+  padding-bottom:30px;
 }
 #RepoIcons img {
-  margin-right: 6px; 
-  margin-left: 6px;
-  
+  margin: 0 6px;
 }
+#links-container {
+  text-align: center;
+}
+
 #project-images{
   height: 290px;
   display:flex;
