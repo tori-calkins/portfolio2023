@@ -129,12 +129,13 @@
 /* Projects Page Styling */
 .sidenav{
   margin-top: 70px;
-  margin-left: 40px;
+  margin-left: 90px;
   border: solid; 
   display: inline-block;
   width: 200px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; 
 }
 .title{
   border-bottom: solid;
@@ -153,6 +154,11 @@
   padding-top:3px;
   padding-bottom:3px;
 }
+.projects:hover,
+.projects.active {
+  background-color: #d8dddf; 
+  color: #0a0a0a ; 
+}
 
 .projects-container{
   display: flex;
@@ -164,25 +170,35 @@
   margin-left: 60px;
   width: 50%;
 }
+#projectName{
+  text-align:center;
+  padding-top: 0px;
+  font-size: 30px;
+  font-family: IBM Plex Serif;
+}
 #RepoIcons{
   text-decoration: none;
   color: Black;
   font-family: IBM Plex Serif;
   display: inline-flex;
   align-items: center;
+  text-align:center;
   font-weight: bold;
   font-size: 20px;
   padding-bottom:10px;
 }
 #RepoIcons img {
   margin-right: 6px; 
-  margin-left: 10px;
+  margin-left: 6px;
+  
 }
-#projectName{
-  text-align:center;
-  padding-top: 0px;
-  font-size: 30px;
-  font-family: IBM Plex Serif;
+#project-images{
+  height: 290px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom:15px;
 }
 #techStack, #projectDescription{
   font-size:22px;
