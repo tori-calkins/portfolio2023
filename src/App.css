@@ -77,13 +77,14 @@
 }
 
 
-/* Icons Footer styling */
+/* Footer styling */
 .footer {
   width: 100%; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  position: fixed;
+  margin: 0;
 } 
 .bottomIcons{
   display: flex;
@@ -168,7 +169,7 @@
   font-weight: bold;
 }
 .project-details{
-  margin-left: 60px;
+  margin-left: 120px;
   width: 50%;
 }
 #projectName{
@@ -198,7 +199,7 @@
 
 #project-images{
   height: 290px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -207,7 +208,7 @@
 #techStack, #projectDescription{
   font-size:22px;
   font-family: IBM Plex Serif;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 

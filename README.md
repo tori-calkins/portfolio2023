@@ -1,4 +1,8 @@
-## intro paragraph ##
-My enthusiasm for technology is not just about code; it's about the collaborative spirit. I thrive on pair programming and diving into projects with a dynamic team. As a dedicated worker, I relish the challenge of problem-solving and managing multiple tasks concurrently. I firmly believe in the power of synergy, where diverse minds converge to create something truly exceptional. Whether unraveling elegant solutions to complex problems or cherishing the joy of social connections, I bring unwavering dedication and passion. My journey is fueled by the thrill of conquering challenges, both in the coding realm and my personal life, always eager to learn, adapt, and grow.
-
- I've worked on web development projects using HTML, CSS, JavaScript, React.js, Ruby, and Ruby on Rails, and my passion for creative problem-solving drives my constant skill growth. 
+## Goals ##
+ - change the font to IBM Plex Serif ✅
+ - have a form somewhere to send an email to get in contact w me ✅
+ - get contact me form to send emails to me (not sure how to do that because i cant use an api so need to find an alternative)✅
+ - get contact me form to be pretty and make sure it works
+ - figure out how to get rid of the underline on my learn more about me button ✅
+ - create a header/button to go back to home page from component pages ✅
+ - create an about me page ✅
