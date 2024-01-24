@@ -2,11 +2,11 @@
 .header{
   display: flex;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 20px;
   background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
 }
 .navlinks{
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   color: black;
   font-family: IBM Plex Serif;
@@ -34,7 +34,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: IBM Plex Serif;
-  font-size: 25px;
+  font-size: 20px;
   height: auto;
   justify-content: center;
   line-height: 1.5;
@@ -58,22 +58,22 @@
 .homepage, .aboutme{
   text-align: center;
   font-family: IBM Plex Serif;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 #greeting{
-  font-size: 55px;
+  font-size: 35px;
 }
 #hometext{
   width: 50%;
   margin:auto;
-  padding-bottom: 50px;
-  font-size: 23px;
+  padding-bottom: 35px;
+  font-size: 20px;
 }
 #profilepicture{
-  height: 450px;
+  height: 350px;
   border-radius: 50%;
   box-shadow: 0 4px 15px rgba(22, 12, 12, 0.2);
-  margin-bottom:15px;
+  margin-bottom: 12px;
 }
 
 
@@ -110,12 +110,14 @@
 #makespace{
   margin-top:30px;
 }
-#icons{
+
+#icons {
   display: flex;
+  flex-wrap: wrap; 
   justify-content: space-between;
-  margin:auto;
-  width: 50%;
-  padding-bottom:20px
+  margin: auto;
+  padding-bottom: 20px;
+  width:60%;
 }
 #aboutmepicture{
   display: flex;
@@ -123,7 +125,7 @@
   margin:auto;
   height: 200px;
   border-radius: 50%;
-  margin-bottom:22px;
+  margin-bottom: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2)
 }
 
@@ -218,9 +220,8 @@
   margin: 0 auto; 
   width: 90%; 
   max-width: 400px;
-  font-size: 25px;
   padding-bottom: 100px;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 .contactContainer {
   text-align: center;
@@ -228,7 +229,7 @@
 .inputField {
   width: 100%;
   padding: 10px;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 15px;
   border: 1.5px solid black;
   border-radius: 5px;
@@ -239,7 +240,7 @@
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 22px;
   font-family: IBM Plex Serif;
   background-color: #1bc4ca;
   color: white;
