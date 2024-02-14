@@ -3,7 +3,8 @@ import gitHubIcon from '../assets/github1.png';
 import starIcon from '../assets/starIcon.png';
 import tictactoe from '../assets/TicTacToe.ss.png';
 import piglatin from '../assets/PigLatin.ss.png';
-import RatieMate from "../assets/ratiemate.png"
+import RatieMate from '../assets/ratiemate.png';
+import GameBet from '../assets/gamebet.png'
 
 const ProjectDetails = ({ project }) => (
   <div className="project-details">
@@ -39,6 +40,17 @@ const Projects = () => {
             src: RatieMate,
         },
     },
+    {
+      name: "GameBet -- IN PROGRESS",
+      description: "GameBet is a sports betting app that offers users the opportunity to engage with current game statuses with no real money involved. It provides real-time updates on ongoing sports events, which allows users to stay informed about a games progress and outcomes. While not featuring monetary bets, GameBet serves as a platform for users to follow their favorite sports and make predictions about game results in a friendly and interactive environment.",
+      repoLink: "https://github.com/Varelazi/sportsbet",
+      // appLink: "https://frontend-ratiemate.onrender.com/",
+      techStack: "React, Ruby on Rails, HTML, CSS, Yarn, Render",
+      img: {
+          alt: "GameBet welcome page",
+          src: GameBet,
+      },
+  },
     {
         name: "Tic-Tac-Toe Game",
         description: "Tic-tac-toe is a simple, two-player game played on a 3x3 grid. Players take turns marking either an 'X' or an 'O' in empty squares. The goal is to get three of your marks in a row, either horizontally, vertically, or diagonally, before your opponent does.",
