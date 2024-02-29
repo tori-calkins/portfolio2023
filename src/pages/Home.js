@@ -7,7 +7,7 @@ const Home = () => {
         <>
         <div className="homepage">
             <h1 id="greeting">Hi, I'm Tori!</h1>
-            <p id="hometext">I'm a junior full-stack developer based in San Diego, California. I've actively contributed to web development initiatives, engaging with diverse technologies to enhance my skills. Through these experiences, I've cultivated a dynamic approach to project work, fostering continuous learning and adaptability.</p>
+            <p id="hometext">I'm a Front-End Web Developer based in San Diego, California. I specialize in crafting interactive web applications using React.js, Ruby, and React Native with proficiency in JavaScript, CSS, and HTML.</p>
             <img id="profilepicture" src={profilepic} alt="Profile Picture of me"/>
         </div>
         </>

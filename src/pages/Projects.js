@@ -4,7 +4,6 @@ import starIcon from '../assets/starIcon.png';
 import tictactoe from '../assets/TicTacToe.ss.png';
 import piglatin from '../assets/PigLatin.ss.png';
 import RatieMate from '../assets/ratiemate.png';
-import GameBet from '../assets/gamebet.png'
 
 const ProjectDetails = ({ project }) => (
   <div className="project-details">
@@ -16,13 +15,13 @@ const ProjectDetails = ({ project }) => (
         <a id="RepoIcons" href={project.appLink} target="_blank">
         <img src={starIcon} alt="Star Icon" />Deployed App
         </a>
+    <p id="techStack">
+      <strong>Tech Stack:</strong> {project.techStack}
+    </p>
     </div>
     <img id="project-images" alt={project.img.alt} src={project.img.src} />
     <p id="projectDescription">
       <strong>Purpose:</strong> {project.description}
-    </p>
-    <p id="techStack">
-      <strong>Tech Stack:</strong> {project.techStack}
     </p>
   </div>
 );
@@ -34,29 +33,18 @@ const Projects = () => {
         description: "RatieMate is your go-to movie searching app, enabling easy exploration and rating of your favorite films. Sign in to curate your personalized list of beloved movies, allowing others to see your ratings and recommendations. Efficiently discover new must-watch movies while effortlessly keeping track of ones you've seen and loved. With RatieMate, finding and organizing your cinematic preferences has never been more enjoyable and accessible.",
         repoLink: "https://github.com/RatieMateCapstone",
         appLink: "https://frontend-ratiemate.onrender.com/",
-        techStack: "React, Ruby on Rails, HTML, CSS, Yarn, Render",
+        techStack: "React.js, Ruby on Rails, HTML, CSS, Yarn, Render",
         img: {
             alt: "RatieMate signin and signup page",
             src: RatieMate,
         },
     },
     {
-      name: "GameBet -- IN PROGRESS",
-      description: "GameBet is a sports betting app that offers users the opportunity to engage with current game statuses with no real money involved. It provides real-time updates on ongoing sports events, which allows users to stay informed about a games progress and outcomes. While not featuring monetary bets, GameBet serves as a platform for users to follow their favorite sports and make predictions about game results in a friendly and interactive environment.",
-      repoLink: "https://github.com/Varelazi/sportsbet",
-      // appLink: "https://frontend-ratiemate.onrender.com/",
-      techStack: "React, Ruby on Rails, HTML, CSS, Yarn, Render",
-      img: {
-          alt: "GameBet welcome page",
-          src: GameBet,
-      },
-  },
-    {
         name: "Tic-Tac-Toe Game",
         description: "Tic-tac-toe is a simple, two-player game played on a 3x3 grid. Players take turns marking either an 'X' or an 'O' in empty squares. The goal is to get three of your marks in a row, either horizontally, vertically, or diagonally, before your opponent does.",
         repoLink: "https://github.com/tori-calkins/Tic-Tac-Toe",
         appLink: "https://tic-tac-toe-blnf.onrender.com/",
-        techStack: "React, HTML, CSS, Yarn, Render",
+        techStack: "React.js, HTML, CSS, Yarn, Render",
         img: {
             alt: "Tic-Tac-Toe Game",
             src: tictactoe,
@@ -67,7 +55,7 @@ const Projects = () => {
         description: "Pig Latin is a language game where words are altered according to a set of rules. In Pig Latin, to translate a word into Pig Latin, you typically move the first consonant or consonant cluster of a word to the end of the word and add 'ay.' If a word starts with a vowel, you simply add 'way' or 'ay' at the end.",
         repoLink: "https://github.com/learn-academy-2023-foxtrot/pig-latin-the-crying-pigs",
         appLink: "https://pig-latin-crying-pigs.onrender.com/",
-        techStack: "React, HTML, CSS, Yarn, Render",
+        techStack: "React.js, HTML, CSS, Yarn, Render",
         img: {
             alt: "Pig Latin App",
             src: piglatin,

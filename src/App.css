@@ -176,9 +176,9 @@
 }
 #projectName{
   text-align:center;
-  padding-top: 0px;
   font-size: 30px;
   font-family: IBM Plex Serif;
+  margin-bottom: 10px;
 }
 #RepoIcons{
   text-decoration: none;
@@ -190,10 +190,10 @@
   text-align:center;
   font-weight: bold;
   font-size: 20px;
-  padding-bottom:30px;
+  padding-bottom:10px;
 }
 #RepoIcons img {
-  margin: 0 6px;
+  margin: 0 4px;
 }
 #links-container {
   text-align: center;
@@ -210,7 +210,7 @@
 #techStack, #projectDescription{
   font-size:22px;
   font-family: IBM Plex Serif;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 
